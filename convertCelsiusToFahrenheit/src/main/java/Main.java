@@ -20,9 +20,9 @@ public class Main {
         double smallest = 0;
         double largest = 100;
         
-        for (double i = smallest; i <= largest; ++i){
+        for (double i = smallest; i <= largest; i++){
             System.out.println(i + " in fahrenheit = ");
-            System.out.println("%.2f", convertCelciusToFahrenheit(i));
+            System.out.format(".2f", convertCelciusToFahrenheit(i));
             System.out.println();
         }
     }
