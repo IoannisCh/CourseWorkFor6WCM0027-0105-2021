@@ -13,7 +13,7 @@ public class Main {
         
         for (double i = smallest; i <= largest; i++){
             System.out.println(i + " in fahrenheit = ");
-            System.out.format(".2f", convertCelciusToFahrenheit(i));
+            System.out.format("%.2f", convertCelciusToFahrenheit(i));
             System.out.println();
         }
     }
