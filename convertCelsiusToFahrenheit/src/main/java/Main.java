@@ -4,9 +4,7 @@ public class Main {
         return (celcius * 9 / 5) +32;
     }
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         double smallest = 0;
         double largest = 100;
