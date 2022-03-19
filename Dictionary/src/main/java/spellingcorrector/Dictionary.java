@@ -1,8 +1,15 @@
 
 
-package com.mycompany.dictionary;
+package spellingcorrector;
 
 import java.util.Collections;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  *
@@ -12,14 +19,14 @@ public class Dictionary {
     private List<String> words;
     
     public Dictionary () {
-        words = new ArraList<String> ();
+        words = new ArrayList<String>();
         
         loadWords (Dictionary.class.getResourceAsStream ("resources/dictionary.txt"));
         
         Collections.sort(words);
     }
         
-    public boolean containsWord (String word){
+    public boolean containsWord(String word){
         int result = Collections.binarySearch (Words, word);
         
         return result >= 0;
@@ -27,7 +34,7 @@ public class Dictionary {
 
     private void loadWords (InputStream file){
         try {
-            BufferdReader br = new BufferedReader(new InputStreamReader (file));
+            BufferedReader br = new BufferedReader(new InputStrreamReader (file));
             
             while (true) {
                 String line = br.readLine();
@@ -37,8 +44,10 @@ public class Dictionary {
             words.add(line);
             }
             
-        } catch (IOException ex)
-    
+        } catch (IOException ex){
+            ;
+        }
+          
     }
         
         

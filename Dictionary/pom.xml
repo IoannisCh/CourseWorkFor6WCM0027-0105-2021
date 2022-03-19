@@ -10,4 +10,5 @@
         <maven.compiler.target>11</maven.compiler.target>
         <exec.mainClass>com.mycompany.dictionary.Dictionary</exec.mainClass>
     </properties>
+    <name>Spellingcorrector</name>
 </project>

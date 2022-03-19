@@ -1,2 +1,5 @@
-/home/yiannis/NetBeansProjects/Dictionary/src/main/java/com/mycompany/dictionary/SpellCorrector.java
-/home/yiannis/NetBeansProjects/Dictionary/src/main/java/com/mycompany/dictionary/Dictionary.java
+/home/yiannis/NetBeansProjects/CourseWorksAndPracticeFor6WCM0027-0105-2021/Dictionary/src/main/java/spellingcorrector/Levenshtein.java
+/home/yiannis/NetBeansProjects/CourseWorksAndPracticeFor6WCM0027-0105-2021/Dictionary/src/main/java/spellingcorrector/Dictionary.java
+/home/yiannis/NetBeansProjects/CourseWorksAndPracticeFor6WCM0027-0105-2021/Dictionary/src/main/java/spellingcorrector/SpellCorrector.java
+/home/yiannis/NetBeansProjects/CourseWorksAndPracticeFor6WCM0027-0105-2021/Dictionary/src/main/java/spellingcorrector/SpellFrame.java
+/home/yiannis/NetBeansProjects/CourseWorksAndPracticeFor6WCM0027-0105-2021/Dictionary/src/main/java/spellingcorrector/Metric.java
