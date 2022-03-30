@@ -27,6 +27,10 @@ public final class Circle extends Point{
     
     public getArea(){
     }
+
+    /**
+     *
+     */
     public class CircPoint {
     public static void main(String[] args){
         
