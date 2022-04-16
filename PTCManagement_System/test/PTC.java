@@ -1,5 +1,5 @@
 
-package ptcmanagement_system;
+
 
 public class PTC extends javax.swing.JFrame {
 
