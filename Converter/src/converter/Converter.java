@@ -5,22 +5,20 @@ package converter;
  * @author yiannis
  */
 public class Converter {
-    public static int readNumber(String str){
-        int result = 0;
+      static double convertCelsiousToFahrenheit(double celsius){
+           return (celsius * 9 / 5) + 32;
+       }
+   
+    public static void main(String[] args) {
+        double smallest = 0;
+        double largest = 100;
         
-        try{
-            result = Integer.parseInt(str);
-        } catch (NumberFormatException ex) {
-            System.out.println("Read Number failed to parse " + str);
+        for (double i = smallest; i <= largest; ++i){
+            System.out.print(i+ " in fahrenheit = ");
+            System.out.format("%.2f" , convertCelsiousToFahrenheit (i));
+            System.out.println();
         }
-        return result;
+  
     }
     
-    public static void main(String[] args) {
-        int sum = 0;
-        sum = sum + readNumber("12");
-        sum = sum + readNumber("x");
-        
-        System.out.println("Sum is " + sum);
-    }
 }
