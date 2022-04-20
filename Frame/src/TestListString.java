@@ -50,7 +50,7 @@ public class TestListString
        Lists ls = populateList();
        printList(ls);
        String[] titles = getTitlesFromList(ls);
-       int index = ls.binarySearch(titles, "Downey");
+       int index = ls.binarySearch(titles, "");
        ls.delete(index);
        printList(ls);
     }
