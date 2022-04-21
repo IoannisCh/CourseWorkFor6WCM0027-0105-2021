@@ -1,6 +1,6 @@
-public class Book extends LoanItem
+public class Book extends Student
 {
-  private String author;
+  private final String author;
   
   public Book (String title, int id, boolean onLoan, String targetDate, String author, String type) {
       super(title, id, onLoan, targetDate, type);

@@ -1,4 +1,4 @@
-public class Review extends LoanItem
+public class Review extends Student
 {
   private final String review;
   
