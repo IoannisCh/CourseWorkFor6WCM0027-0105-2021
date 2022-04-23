@@ -1,3 +1,7 @@
+
+
+package ptcmanagement_system;
+
 public class ListNodes {
     private ListNodes next;
     private Student data;

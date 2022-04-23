@@ -1,3 +1,5 @@
+package ptcmanagement_system;
+
 public class TestListString 
 {
     public static Lists populateList(){
@@ -13,16 +15,16 @@ public class TestListString
         return ls;
     }
     
-    public static String[] getTitlesFromList(Lists ls){
+   /* public static String[] getTitlesFromList(Lists ls){
         String[] titles = new String[ls.size()+1];
         System.out.println(ls.size());
         for (int i=0; i<=ls.size(); i++){
             titles[i] = ls.get(i).getTitle();
         }
         return titles;
-    }
+    }*/
     
-    public static void printList(Lists ls){
+   /* public static void printList(Lists ls){
         for (int i=0; i<=ls.size(); i++){
             if (ls.get(i).getOnLoan() == true){
                  System.out.println ("Item: " + ls.get(i).getId());
@@ -31,7 +33,7 @@ public class TestListString
             }
         }
         System.out.println(ls.size());
-    }
+    }*/
     
     /*public static void testAdd (String[] args) 
     {

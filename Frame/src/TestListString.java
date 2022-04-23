@@ -4,12 +4,8 @@ public class TestListString
         Lists ls = new Lists();
         Student stud1 = new Student ("");
         
-       
-       
         ls.join(stud1);
        
-        
-        
         return ls;
     }
     

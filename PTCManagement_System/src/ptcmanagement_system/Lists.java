@@ -1,3 +1,5 @@
+package ptcmanagement_system;
+
 public class Lists {
     private ListNodes head;
     private int count;
